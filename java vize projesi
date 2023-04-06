@@ -1,3 +1,4 @@
+// MAİN CLASS I
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -119,6 +120,7 @@ public class Main {
 
 }
 
+// UYE CLASS I
 public class Uye {
     private String isim;
     private String soyisim;
@@ -176,6 +178,8 @@ class GenelUye extends Uye { //Kaltımla genelüye oluşturuyoruz
     }
 
 }
+
+//DOSYA İŞLEMLERİ CLASS I
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -193,6 +197,8 @@ class DosyaIslemleri {
     }
 
 }
+
+//MAİL GÖNDERME CLASS I
 import java.util.Properties;
 import javax.mail.Authenticator;
 import javax.mail.Message;
